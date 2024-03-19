@@ -20,7 +20,7 @@ The project contains the following structure:
 
 The project contains the following scripts:
 - `run_app`: Runs the application. The main entry point is at `src/main.py`.
-- `run_tests`: Runs the tests contained in the `tests/` folder.
+- `run_tests`: Runs the tests contained in the `tests/` folder. The test results are outputted as an HTML document in folder `htmlcov`.
 - `create_pdoc`: Creates documentation of the `src/` folder. The documentation is outputted as an HTML document in folder `docs`.
 
 ## Configuration Files
