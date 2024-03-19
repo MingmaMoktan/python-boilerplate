@@ -7,7 +7,7 @@ This is a boilerplate for Python (3.9+) projects that contain both documentation
 The following packages should be installed:
 
 - pytest (`pip3 install pytest`)
-- pytest-cov (`pip3 install pytest-doc`)
+- pytest-cov (`pip3 install pytest-cov`)
 - pdoc  (`pip3 install pdoc`)
 
 ## Project Structure
@@ -25,5 +25,5 @@ The project contains the following scripts:
 
 ## Configuration Files
 
-- `.coveragerc`: 
-- `conftest.py`: 
+- `.coveragerc`: Contains the configurations for the code coverage package (`pytest-cov`).
+- `conftest.py`: Contains the configurations for the `pytest` package.
