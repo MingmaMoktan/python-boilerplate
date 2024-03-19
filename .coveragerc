@@ -1,0 +1,9 @@
+[run]
+source =
+    src
+omit =
+    tests/*
+    src/main.py
+
+[report]
+include_namespace_packages = true
