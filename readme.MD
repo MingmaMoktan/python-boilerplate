@@ -12,7 +12,7 @@ The following packages should be installed:
 
 ## Usage
 
-Just download this repository and add your own code in the src folder. Then you can run any of the scripts to run tests, create documentation or run your application.
+Just download this repository and add your own code in the `src` folder. Then you can run any of the scripts to run tests, create documentation or run your application.
 
 ## Project Structure
 
