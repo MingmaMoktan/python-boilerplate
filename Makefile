@@ -29,5 +29,5 @@ clean: ## Remove all automatically generated files and folders
 	rm -rf .pytest_cache
 	rm .coverage
 
-install-dependencies: ## Install all required pip packages
+install-deps: ## Install all required pip packages
 	pip3 install -r requirements.txt
