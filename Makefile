@@ -1,10 +1,11 @@
-SRC_FOLDER=src
-SRC_TEST=tests
 PYTHON=python3
+PIP=pip3
+
 PYDOC=pydoc3
 PYTEST=pytest
-PIP=pip3
-APP_ENTRYPOINT=$(SRC_FOLDER)/main.py
+
+FOLDER_SRC=src
+APP_ENTRYPOINT=$(FOLDER_SRC)/main.py
 
 help: ## Prints these help pages
 	$(info Commands available:)
@@ -21,7 +22,7 @@ test: ## Run tests in the tests/ folder. Outputs HTML results in folder htmlcov/
 
 doc: ## Output pdoc HTML code documentation into folder docs/
 	rm -rf ./docs
-	pdoc $(SRC_FOLDER)/* -o docs --docformat google
+	pdoc $(FOLDER_SRC)/* -o docs --docformat google
 
 clean: ## Remove all automatically generated files and folders
 	rm -rf docs/
@@ -30,4 +31,4 @@ clean: ## Remove all automatically generated files and folders
 	rm .coverage
 
 install-deps: ## Install all required pip packages
-	pip3 install -r requirements.txt
+	$(PIP) install -r requirements.txt
