@@ -1,2 +1,0 @@
-pytest -vv --cov=src --cov-report html
-pytest -vv --cov=src
