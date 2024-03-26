@@ -29,6 +29,7 @@ clean: ## Remove all automatically generated files and folders
 	rm -rf htmlcov
 	rm -rf .pytest_cache
 	rm .coverage
+	rm -rf __pycache__
 
 install-deps: ## Install all required pip packages
 	$(PIP) install -r requirements.txt
