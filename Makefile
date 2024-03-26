@@ -22,7 +22,7 @@ test: ## Run tests in the tests/ folder. Outputs HTML results in folder htmlcov/
 
 doc: ## Output pdoc HTML code documentation into folder docs/
 	rm -rf ./docs
-	pdoc $(FOLDER_SRC)/* -o docs --docformat google
+	PYTHONPATH="." pdoc $(FOLDER_SRC)/* -o docs --docformat google
 
 clean: ## Remove all automatically generated files and folders
 	rm -rf docs/
