@@ -6,7 +6,7 @@ This project also includes `Makefile`, thus the Unix built-in command `make` can
 
 ## Usage
 
-After you have cloned the repository, just run the command ``make help`` in the terminal to see all available commands:
+After you have cloned the repository, just run the command ``make`` or ``make help`` in the terminal to see all available commands:
 
 ```bash
 $ make
