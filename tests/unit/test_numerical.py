@@ -25,7 +25,7 @@ def test_add_float():
 
 def test_add_type_check():
     with pytest.raises(TypeError):
-        sum("a", "b")
+        add("a", "b")
 
 # random_number()
 

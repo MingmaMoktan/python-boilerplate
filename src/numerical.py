@@ -15,6 +15,8 @@ def add(num1 : int, num2 : int) -> int:
         >>> add(1, 5)
         6
     '''
+    if type(num1)==str or type(num2)==str:
+        raise TypeError()
     return num1 + num2
 
 def random_number(min : int, max : int):
